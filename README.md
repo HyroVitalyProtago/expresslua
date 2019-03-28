@@ -1,7 +1,9 @@
 # expresslua
 ![Generic badge](https://img.shields.io/badge/status-development-orange.svg)
 
-like expressjs the "Fast, unopinionated, minimalist web framework" but in Lua (based on coroutines).
+Like expressjs the "Fast, unopinionated, minimalist web framework" but in Lua (based on coroutines).
+This project was developed for [Codea](https://codea.io/) (the iPad Lua Editor).
+The library use Lua "socket" and the default json.encode/decode available in Codea (that can be replace by Dkjson lua file).
 
 ~~~lua
 local app
